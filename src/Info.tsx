@@ -1,5 +1,5 @@
 const Info = () => {
-    return <div className="flex-col">
+    return <div className="flex-col	flex-1 p-4">
         <h1 id='engineer-name'
             className="text-2xl text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
             Paweł Oczadly

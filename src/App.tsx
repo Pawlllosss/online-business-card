@@ -4,12 +4,12 @@ import Content from "./Content.tsx";
 
 function App() {
 
-  return (
-    <>
-        <Nav/>
-        <Content/>
-    </>
-  )
+    return (
+        <div className="w-screen">
+            <Nav/>
+            <Content/>
+        </div>
+    )
 }
 
 export default App
