@@ -1,15 +1,13 @@
 import './App.css'
-import Nav from "./Nav.tsx";
 import Content from "./Content.tsx";
-import Footer from "./Footer.tsx";
 
 function App() {
 
     return (
         <div className="w-screen">
-            <Nav/>
+            {/*<Nav/>*/}
             <Content/>
-            <Footer/>
+            {/*<Footer/>*/}
         </div>
     )
 }
