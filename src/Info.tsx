@@ -1,3 +1,5 @@
+import SocialMediaButton from "./SocialMediaButton.tsx";
+
 const Info = () => {
     return <div className="flex flex-col justify-between">
         <h1 id='engineer-name'
@@ -15,12 +17,8 @@ const Info = () => {
             </div>
         </div>
         <div className="flex justify-evenly mt-8 space-x-8">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                My LinkedIn
-            </button>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                My GitHub
-            </button>
+            <SocialMediaButton text="My LinkedIn"/>
+            <SocialMediaButton text="My GitHub"/>
         </div>
     </div>;
 }
