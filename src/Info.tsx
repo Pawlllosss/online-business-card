@@ -34,9 +34,13 @@ const Info = () => {
         </div>
         <div className="flex justify-evenly mt-8 space-x-8">
             <SocialMediaButton text="My LinkedIn"
-                               icon={linkedInIcon}/>
+                               icon={linkedInIcon}
+                               link="https://www.linkedin.com/in/pawe%C5%82-oczadly-a6a42b159/"
+            />
             <SocialMediaButton text="My GitHub"
-                               icon={gitHubIcon}/>
+                               icon={gitHubIcon}
+                               link="https://github.com/Pawlllosss"
+            />
         </div>
     </div>;
 }
