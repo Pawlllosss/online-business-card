@@ -26,9 +26,10 @@ const Info = () => {
                 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
                 Software Engineer
             </h1>
-            <div>
-                Java and Kotlin developer with some TypeScript and React expertise. Working in IT industry since 2017.
-                Located in Poland - Kraków.
+            <div className="flex flex-col">
+                <span>Java and Kotlin developer with some TypeScript and React expertise.</span>
+                <span>Working in IT industry since 2017.</span>
+                <span>Located in Poland - Kraków.</span>
             </div>
         </div>
         <div className="flex justify-evenly mt-8 space-x-8">
