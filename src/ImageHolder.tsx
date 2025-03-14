@@ -1,7 +1,7 @@
 const ImageHolder = () => {
-    return <div className="flex">
+    return <div className="flex rounded-t-3xl">
         <img src="https://oczadly-business-card.s3.amazonaws.com/oczadly-pic.jpg"
-             className="object-contain h-full w-full object-containrounded-lg rounded-t-3xl"/>
+             className="w-full h-full object-contain rounded-t-3xl"/>
     </div>
 }
 
