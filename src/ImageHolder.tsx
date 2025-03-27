@@ -1,5 +1,5 @@
 const ImageHolder = () => {
-    return <div className="flex rounded-t-3xl">
+    return <div className="flex rounded-t-3xl max-w-[30%]">
         <img src="https://oczadly-business-card.s3.amazonaws.com/oczadly-pic.jpg"
              className="w-full h-full object-contain rounded-t-3xl"/>
     </div>
