@@ -7,9 +7,7 @@ function App() {
     return (
         <div className="h-screen w-screen  flex flex-col">
             <Nav/>
-            <div className="flex flex-1 justify-center items-center">
-                <Content/>
-            </div>
+            <Content/>
             {/*<Footer/>*/}
         </div>
     )
