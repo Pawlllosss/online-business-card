@@ -1,14 +1,21 @@
 import './App.css'
 import Content from "./Content.tsx";
 import Nav from "./Nav.tsx";
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import About from "./About.tsx";
 
 function App() {
 
     return (
         <div className="h-screen w-screen  flex flex-col">
-            <Nav/>
-            <Content/>
-            {/*<Footer/>*/}
+            <BrowserRouter>
+                <Nav/>
+                <Routes>
+                    <Route path='/' element={<Content/>}/>
+                    <Route path='/about' element={<About/>}/>
+                </Routes>
+                {/*<Footer/>*/}
+            </BrowserRouter>
         </div>
     )
 }
