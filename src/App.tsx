@@ -1,13 +1,13 @@
 import './App.css'
-import Content from "./Content.tsx";
+import Content from "./content/Content.tsx";
 import Nav from "./Nav.tsx";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-import About from "./About.tsx";
+import About from "./about/About.tsx";
 
 function App() {
 
     return (
-        <div className="h-screen w-screen  flex flex-col">
+        <div className="h-screen w-screen flex flex-col">
             <BrowserRouter>
                 <Nav/>
                 <Routes>
