@@ -1,4 +1,4 @@
-import SocialMediaButton from "./SocialMediaButton.tsx";
+import SocialMediaButton from "../SocialMediaButton.tsx";
 
 const Info = () => {
     const linkedInIcon = <svg className="fill-current w-5 h-5 ml-2" xmlns="http://www.w3.org/2000/svg"
