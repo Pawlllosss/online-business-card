@@ -13,9 +13,9 @@ const ExperienceTile = ({jobTitle, companyName, jobStart, jobEnd}: ExperienceTil
     const endHumanReadable = jobEnd?.toLocaleString('en-GB',
         {month: '2-digit', year: 'numeric'}
     ) ?? "now";
-    return <div>
+    return <div className="w-full rounded-2xl shadow-md p-4 bg-white">
+        <p className="font-bold">{companyName}</p>
         <p>{jobTitle}</p>
-        <p>{companyName}</p>
         <p>{startHumanReadable} - {endHumanReadable}</p>
     </div>
 }
